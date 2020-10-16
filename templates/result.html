@@ -22,7 +22,7 @@
 		<!-- Result -->
 		<div class="results">
 			{% if prediction==1 %}
-				<h1>Prediction: <span class='danger'><h2 style="color:red;">You have recieved Spam Message</h2></span></h1>
+				<h1>Prediction: <span class='danger'><h2 style="color:red;">You have received Spam Message</h2></span></h1>
 				<img class="gif" src="{{ url_for('static', filename='spam_gif.webp') }}" alt="spam Image">
 			{% elif prediction==0 %}
 				<h1>Prediction: <span class='safe'> Your message is not Spam(it is Ham) </span></h1>
