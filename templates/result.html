@@ -25,7 +25,7 @@
 				<h1>Prediction: <span class='danger'><h2 style="color:red;">You have recieved Spam Message</h2></span></h1>
 				<img class="gif" src="{{ url_for('static', filename='spam_gif.webp') }}" alt="spam Image">
 			{% elif prediction==0 %}
-				<h1>Prediction: <span class='safe'> You message is not Spam(it is Ham) </span></h1>
+				<h1>Prediction: <span class='safe'> Your message is not Spam(it is Ham) </span></h1>
 				<img class="gif1" src="{{ url_for('static', filename='ham_gif.webp') }}" alt="ham Image">
 			{% endif %}
 		</div>
